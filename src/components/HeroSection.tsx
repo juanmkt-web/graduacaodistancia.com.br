@@ -7,14 +7,19 @@ const HeroSection = () => {
     const element = document.getElementById("oferta");
     if (element) {
       element.scrollIntoView({
-        behavior: "smooth"
+        behavior: "smooth",
       });
     }
   };
-  return <section className="relative min-h-screen pt-32 pb-16 md:pt-40 md:pb-24 overflow-hidden bg-gradient-hero">
+  return (
+    <section className="relative min-h-screen pt-32 pb-16 md:pt-40 md:pb-24 overflow-hidden bg-gradient-hero">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        <img src={heroImage} alt="Alunos felizes estudando a Graduação a Distância EAD da FASUL, faculdade nota 5 no MEC" className="w-full h-full object-cover opacity-10" />
+        <img
+          src={heroImage}
+          alt="Alunos felizes estudando a Graduação a Distância EAD da FASUL, faculdade nota 5 no MEC"
+          className="w-full h-full object-cover opacity-10"
+        />
         <div className="absolute inset-0 bg-gradient-hero/80" />
       </div>
 
@@ -25,13 +30,12 @@ const HeroSection = () => {
             <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight animate-reveal-left">
               <span className="inline-block bg-accent text-accent-foreground px-4 py-2 rounded-lg mb-4">URGENTE</span>
               <br />
-              Sua Graduação EAD com mensalidades a partir de{" "}
-              <span className="text-accent">R$ 3,30 por dia</span> e Nota Máxima (5) no MEC!
+              Sua Graduação EAD com mensalidades a partir de <span className="text-accent">R$ 3,30 por dia</span>
             </h1>
 
             <p className="text-lg md:text-xl lg:text-2xl text-white/90 animate-fade-in max-w-3xl mx-auto">
-              Ganhe <strong>10 cursos de IA</strong> + <strong>2 Pós-Graduações grátis</strong>. 
-              Acesso vitalício ao laboratório de IAs premium + Certificação emitida por faculdade.
+              Ganhe <strong>10 cursos de IA</strong> + <strong>2 Pós-Graduações grátis</strong>. Acesso vitalício ao
+              laboratório de IAs premium + Certificação emitida por faculdade.
             </p>
 
             {/* Bullets - Grid de 3 colunas em desktop */}
@@ -52,7 +56,11 @@ const HeroSection = () => {
 
             {/* CTA */}
             <div className="animate-bounce-in pt-6">
-              <Button onClick={scrollToOffer} size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 text-base md:text-lg font-bold px-6 md:px-12 py-6 md:py-7 h-auto shadow-accent hover:shadow-accent hover:scale-105 transition-all animate-pulse-soft">
+              <Button
+                onClick={scrollToOffer}
+                size="lg"
+                className="bg-accent text-accent-foreground hover:bg-accent/90 text-base md:text-lg font-bold px-6 md:px-12 py-6 md:py-7 h-auto shadow-accent hover:shadow-accent hover:scale-105 transition-all animate-pulse-soft"
+              >
                 GARANTIR MINHA BOLSA AGORA!
               </Button>
               <p className="text-sm text-white/80 mt-4">
@@ -92,6 +100,7 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
 export default HeroSection;
