@@ -3,9 +3,9 @@ import logoFasul from "@/assets/fasul_branca.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-primary text-primary-foreground py-12">
+    <footer className="bg-primary text-primary-foreground pt-12 pb-8">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col items-center gap-4 mb-8">
+        <div className="flex flex-col items-center gap-4 mb-4">
           {/* Logo */}
           <img 
             src={logoFasul} 
