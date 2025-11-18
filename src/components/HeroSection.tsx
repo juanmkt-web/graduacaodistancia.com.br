@@ -22,14 +22,14 @@ const HeroSection = () => {
         <div className="max-w-5xl mx-auto">
           {/* Conteúdo centralizado */}
           <div className="text-white space-y-8 text-center">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight animate-reveal-left">URGENTE
-Sua Graduação EAD com mensalidades a partir de R$89,00/Mês<span className="inline-block bg-accent text-accent-foreground px-4 py-2 rounded-lg mb-4">URGENTE</span>
+            <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight animate-reveal-left">
+              <span className="inline-block bg-accent text-accent-foreground px-4 py-2 rounded-lg mb-4">URGENTE</span>
               <br />
               Sua Graduação EAD com mensalidades a partir de <span className="text-accent">R$ 3,30 por dia</span>
             </h1>
 
             <p className="text-lg md:text-xl lg:text-2xl text-white/90 animate-fade-in max-w-3xl mx-auto">
-                3 Pós-Graduações grátis (2 para você e 1 para presentear um amigo ou familiar). Acesso ao laboratório de IAs premium + Certificação emitida por faculdade. <strong>10 cursos de IA</strong> + <strong>3 Pós-Graduações grátis</strong> (2 para você e 1 para presentear um amigo ou familiar). Acesso vitalício ao laboratório de IAs premium + Certificação emitida por faculdade.
+              Ganhe <strong>10 cursos de IA</strong> + <strong>3 Pós-Graduações grátis</strong> (2 para você e 1 para presentear um amigo ou familiar). Acesso vitalício ao laboratório de IAs premium + Certificação emitida por faculdade.
             </p>
 
             {/* Bullets - Grid de 3 colunas em desktop */}
