@@ -1,5 +1,5 @@
 import { Facebook, Instagram, Linkedin } from "lucide-react";
-import logoFasul from "@/assets/logo-fasul.png";
+import logoFasul from "@/assets/fasul_branca.png";
 
 const Footer = () => {
   return (
