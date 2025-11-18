@@ -1,9 +1,4 @@
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 const FAQSection = () => {
   const faqs = [
@@ -35,7 +30,7 @@ const FAQSection = () => {
     {
       question: "Como funcionam as Pós-Graduações?",
       answer:
-        "Ao concluir a sua graduação, você ganha 2 Pós-Graduações gratuitas para dar continuidade nos seus estudos e na sua carreira
+        "Ao concluir a sua graduação, você ganha 2 Pós-Graduações gratuitas para dar continuidade nos seus estudos e na sua carreira",
     },
   ];
 
@@ -48,17 +43,11 @@ const FAQSection = () => {
 
         <Accordion type="single" collapsible className="space-y-4">
           {faqs.map((faq, index) => (
-            <AccordionItem
-              key={index}
-              value={`item-${index}`}
-              className="bg-card border border-border rounded-lg px-6"
-            >
+            <AccordionItem key={index} value={`item-${index}`} className="bg-card border border-border rounded-lg px-6">
               <AccordionTrigger className="text-left font-semibold text-foreground hover:text-primary">
                 {faq.question}
               </AccordionTrigger>
-              <AccordionContent className="text-muted-foreground">
-                {faq.answer}
-              </AccordionContent>
+              <AccordionContent className="text-muted-foreground">{faq.answer}</AccordionContent>
             </AccordionItem>
           ))}
         </Accordion>
