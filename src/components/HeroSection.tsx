@@ -7,19 +7,14 @@ const HeroSection = () => {
     const element = document.getElementById("oferta");
     if (element) {
       element.scrollIntoView({
-        behavior: "smooth",
+        behavior: "smooth"
       });
     }
   };
-  return (
-    <section className="relative min-h-screen pt-32 pb-16 md:pt-40 md:pb-24 overflow-hidden bg-gradient-hero">
+  return <section className="relative min-h-screen pt-32 pb-16 md:pt-40 md:pb-24 overflow-hidden bg-gradient-hero">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        <img
-          src={heroImage}
-          alt="Alunos felizes estudando a Graduação a Distância EAD da FASUL, faculdade nota 5 no MEC"
-          className="w-full h-full object-cover opacity-10"
-        />
+        <img src={heroImage} alt="Alunos felizes estudando a Graduação a Distância EAD da FASUL, faculdade nota 5 no MEC" className="w-full h-full object-cover opacity-10" />
         <div className="absolute inset-0 bg-gradient-hero/80" />
       </div>
 
@@ -47,7 +42,7 @@ const HeroSection = () => {
               </div>
               <div className="flex flex-col items-center gap-3 bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10">
                 <CheckCircle2 className="w-8 h-8 text-accent flex-shrink-0" />
-                <span className="text-base font-medium">A partir de R$ 3,30/dia</span>
+                <span className="text-base font-medium">Mensalidade fixa até o final do curso</span>
               </div>
               <div className="flex flex-col items-center gap-3 bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10">
                 <MapPin className="w-8 h-8 text-accent flex-shrink-0" />
@@ -57,11 +52,7 @@ const HeroSection = () => {
 
             {/* CTA */}
             <div className="animate-bounce-in pt-6">
-              <Button
-                onClick={scrollToOffer}
-                size="lg"
-                className="bg-accent text-accent-foreground hover:bg-accent/90 text-base md:text-lg font-bold px-6 md:px-12 py-6 md:py-7 h-auto shadow-accent hover:shadow-accent hover:scale-105 transition-all animate-pulse-soft"
-              >
+              <Button onClick={scrollToOffer} size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 text-base md:text-lg font-bold px-6 md:px-12 py-6 md:py-7 h-auto shadow-accent hover:shadow-accent hover:scale-105 transition-all animate-pulse-soft">
                 GARANTIR MINHA BOLSA AGORA!
               </Button>
               <p className="text-sm text-white/80 mt-4">
@@ -101,7 +92,6 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
 export default HeroSection;
