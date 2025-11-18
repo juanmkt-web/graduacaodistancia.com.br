@@ -35,7 +35,7 @@ const HeroSection = () => {
 
             <p className="text-lg md:text-xl lg:text-2xl text-white/90 animate-fade-in max-w-3xl mx-auto">
               <strong>Ganhe 3 Pós-Graduações grátis</strong> (2 para você e 1 para presentear um amigo ou familiar).
-              Acesso vitalício ao laboratório de IAs premium + Certificação emitida por faculdade.
+              tudo isso com mensalidades fixas + Certificação emitida por faculdade.
             </p>
 
             {/* Bullets - Grid de 3 colunas em desktop */}
