@@ -47,7 +47,7 @@ const HeroSection = () => {
               </div>
               <div className="flex flex-col items-center gap-3 bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10">
                 <CheckCircle2 className="w-8 h-8 text-accent flex-shrink-0" />
-                <span className="text-base font-medium">A partir de R$ 89/mês (R$ 3,30/dia)</span>
+                <span className="text-base font-medium">A partir de R$ 3,30/dia</span>
               </div>
               <div className="flex flex-col items-center gap-3 bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10">
                 <MapPin className="w-8 h-8 text-accent flex-shrink-0" />
