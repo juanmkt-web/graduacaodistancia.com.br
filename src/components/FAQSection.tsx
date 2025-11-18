@@ -33,9 +33,9 @@ const FAQSection = () => {
         "Sim! A FASUL possui nota 5 no MEC, a nota máxima de qualidade. Nossos cursos EAD seguem as mesmas diretrizes e exigências dos cursos presenciais, com professores qualificados e material didático de excelência.",
     },
     {
-      question: "Como funcionam os bônus de cursos de IA e pós-graduações?",
+      question: "Como funcionam as Pós-Graduações?",
       answer:
-        "Ao se matricular, você ganha acesso imediato a 10 cursos de Inteligência Artificial e terá direito a 2 pós-graduações presenciais gratuitas após concluir sua graduação. Além disso, você terá acesso vitalício ao nosso laboratório de IAs premium.",
+        "Ao concluir a sua graduação, você ganha 2 Pós-Graduações gratuitas para dar continuidade nos seus estudos e na sua carreira
     },
   ];
 
