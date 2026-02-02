@@ -13,7 +13,7 @@ const ObjectionsSection = () => {
       icon: DollarSign,
       title: "Custo (Mensalidade)",
       description:
-        "Mensalidade fixa, transparência total — parcelas a partir de R$ 89/mês + opções PROUNI/FIES.",
+        "Mensalidade fixa, transparência total — parcelas a partir de R$ 139/mês + opções PROUNI/FIES.",
     },
     {
       icon: Clock,

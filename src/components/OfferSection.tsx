@@ -177,9 +177,9 @@ const OfferSection = () => {
             {/* Price Highlight */}
             <div className="bg-accent text-accent-foreground rounded-lg p-6 text-center mb-8">
               <p className="text-sm mb-2">A partir de</p>
-              <div className="text-4xl font-bold mb-1">R$ 89/mês</div>
+              <div className="text-4xl font-bold mb-1">R$ 139/mês</div>
               <p className="text-lg font-semibold">
-                Apenas R$ 3,30 por dia
+                Apenas R$ 4,63 por dia
               </p>
             </div>
 

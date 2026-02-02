@@ -30,7 +30,7 @@ const HeroSection = () => {
             <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight animate-reveal-left">
               <span className="inline-block bg-accent text-accent-foreground px-4 py-2 rounded-lg mb-4">URGENTE</span>
               <br />
-              Sua Graduação EAD com mensalidades a partir de <span className="text-accent">R$ 89,00 por Mês</span>
+              Sua Graduação EAD com mensalidades a partir de <span className="text-accent">R$ 139,00 por Mês</span>
             </h1>
 
             <p className="text-lg md:text-xl lg:text-2xl text-white/90 animate-fade-in max-w-3xl mx-auto">
